@@ -58,4 +58,15 @@ span{
     display: inline-block;
     margin: 30px 0;
     border-radius: 5px;
+    transition: .1s;
+}
+.info a:hover{
+    background: crimson;
+}
+.img-box{
+    width: 45%;
+    height: 80%;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
 }
