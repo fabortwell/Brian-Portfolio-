@@ -209,6 +209,9 @@ html {
     width: 65%;
     animation: javascript 3s;    
 }
+
+/*bringing into life the animation of skills bar*/
+
 @keyframes html{
     0%{
         width: 0%;
@@ -235,3 +238,37 @@ html {
         width: 65%;
     }
 }
+
+/*styling the contact section*/
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+    resize: vertical 
+  }
+  
+  /* Styling the submit button with a specific background color etc */
+  input[type=submit] {
+    background-color: crimson;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  /* styling the button when hovered */
+  input[type=submit]:hover {
+    background-color: greenyellow;
+  }
+  
+  /* Adding some padding around the form */
+  .container {
+    border-radius: 25px;
+    background-color: #f2f2f2;
+    padding: 100px;
+  }
